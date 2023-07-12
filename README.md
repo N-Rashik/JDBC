@@ -29,7 +29,7 @@ public class Queries
     {
         String url = "jdbc:mysql://localhost:3306/bank";
         String username = "root";
-        String password = "root123";
+        String password = "toor";
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection con = DriverManager.getConnection(url, username, password);
         PreparedStatement ps = con.prepareStatement("insert into customer values(?,?,?,?,?,?,?,?,?)");
